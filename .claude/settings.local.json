@@ -5,7 +5,11 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git remote *)",
-      "Bash(git branch *)"
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Read(//home/pascal/Documents/Claude/Projects/mon-produit/**)",
+      "Read(//home/pascal/Documents/Claude/Projects/mon-produit/resources/js/**)",
+      "Read(//home/pascal/Documents/Claude/Projects/mon-produit/resources/css/**)"
     ]
   }
 }
