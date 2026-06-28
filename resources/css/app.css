@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        @apply font-sans text-ink antialiased;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply inline-flex items-center justify-center px-6 py-3 bg-brand-500 text-white font-semibold rounded-lg
+               hover:bg-brand-600 transition-colors duration-200 focus:outline-none focus:ring-2
+               focus:ring-brand-500 focus:ring-offset-2;
+    }
+
+    .btn-secondary {
+        @apply inline-flex items-center justify-center px-6 py-3 bg-white text-brand-500 font-semibold
+               rounded-lg border-2 border-brand-500 hover:bg-brand-50 transition-colors duration-200
+               focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
+    }
+
+    .section-title {
+        @apply text-3xl md:text-4xl font-bold text-ink;
+    }
+
+    .section-subtitle {
+        @apply text-lg text-ink-muted mt-4 max-w-2xl mx-auto;
+    }
+
+    .card {
+        @apply bg-white rounded-2xl border border-border p-8 hover:shadow-lg transition-shadow duration-300;
+    }
+}
